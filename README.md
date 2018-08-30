@@ -4,7 +4,7 @@ Windows binary installer for some dependencies of robotology projects.
 
 This installer provides Windows dependencies of robotology projects that are not contained in the YARP and ICUB binary installers ( http://wiki.icub.org/wiki/Downloads ). 
 
-The libraries are built using `vcpkg` and the installers are generated using the https://github.com/robotology-playground/vcpkg-binary-installer-generator . 
+The libraries are built using `vcpkg` and the installers are generated using the https://github.com/robotology-playground/vcpkg-cpack project . 
 
 ## Releases 
 
