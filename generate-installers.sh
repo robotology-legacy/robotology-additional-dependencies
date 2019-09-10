@@ -41,7 +41,7 @@ cd ../..
 echo "Copying installers in artifacts directory"
 rm -rf artifacts
 mkdir artifacts
-RAD_VERSION="0.4.0"
+RAD_VERSION="0.3.0"
 cp ./build/x86-windows/robotology-additional-dependencies-${RAD_VERSION}-x86.exe ./artifacts/robotology-additional-dependencies-${RAD_VERSION}-v141-x86.exe
 cp ./build/x86-windows/robotology-additional-dependencies-${RAD_VERSION}-x86.zip ./artifacts/robotology-additional-dependencies-${RAD_VERSION}-v141-x86.zip
 cp ./build/x64-windows/robotology-additional-dependencies-${RAD_VERSION}-x86_amd64.exe ./artifacts/robotology-additional-dependencies-${RAD_VERSION}-v141-x86_amd64.exe
