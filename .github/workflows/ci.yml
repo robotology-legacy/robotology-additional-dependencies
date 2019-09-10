@@ -4,8 +4,8 @@ on: [push, pull_request]
 
 jobs:
   build:
-
-    runs-on: windows-latest
+    # Use Visual Studio 2017 to create binaries compatible with both VS2017 and VS2019
+    runs-on: windows-2016
     
     steps:
     - uses: actions/checkout@v1
